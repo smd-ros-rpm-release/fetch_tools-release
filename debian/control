@@ -1,0 +1,12 @@
+Source: ros-indigo-fetch-tools
+Section: misc
+Priority: extra
+Maintainer: Alex Henning <ahenning@fetchrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), python-rospkg, ros-indigo-catkin
+Homepage: https://github.com/fetchrobotics/fetch_tools/blob/master/README.md
+Standards-Version: 3.9.2
+
+Package: ros-indigo-fetch-tools
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, python-argcomplete, python-catkin-lint, ros-indigo-roslint, sshpass
+Description: Commands for performing common operations when developing on the robots. For help, run `fetch -h` and `fetch COMMAND -h`.
